@@ -16,6 +16,8 @@
 int main()
 {
 
+// Proposed opcodes to test:
+  
 vector<string> OPCODES={"CALLDATASIZE","PUSH1","0x00","DUP1","CALLDATACOPY","JUMPDEST","PUSH1" ,"0x20","PUSH1","0x00","CALLDATASIZE"
 ,"PUSH1","0x00","CALLVALUE","PUSH20","0xd6","58","a4","b8","24","7c","14","86","8f","3c","51","2f","a5","cb","b6","e4","58","e4","a9"
 ,"89","PUSH2","0x23","5a","GAS","SUB","CALLCODE","PUSH1","0x20","PUSH1","0x00","RETURN","JUMP","JUMPDEST","JUMPDEST","JUMPDEST","JUMPDEST","JUMPDEST","JUMPDEST","JUMPDEST",

@@ -6,18 +6,35 @@ Copyright (c) 2016 efaysal
 
 
 */
-/** @file YP_JumpDest_YD_.cc
+
+/* 
+
+@file YP_JumpDest_YD_.cc
+ * to compile 
+ * g++ -Wl,--no-as-needed -std=c++11 -pthread -o YP_JumpDest_YD_ YP_JumpDest_YD_.cc 
  * @author FEK <faysal.el.khettabi@gmail.com>
  * @date 2015-2016
  * Ethereum VM.
+
  */
+
+
+/* 
+ 
+@https://github.com/efaysal/ETHEREUM_VM_TESTING
+
+ git add YP_JumpDest_YD_.cc 
+ git commit -m  -all
+ git push origin master
+
+
+*/ 
+
 
  // ETHEREUM PROJECT 
 // CHECK YP FORMULATIONS: EQUATIONS 120-124
 // CONCERN D IS INCLUDED IN Y?
 
-// to compile 
- /* g++ -Wl,--no-as-needed -std=c++11 -pthread -o YP_JumpDest_YD_ YP_JumpDest_YD_.cc */
 
 #include <functional>
 #include <iostream>
